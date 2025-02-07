@@ -1,23 +1,14 @@
 # TDD Application
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/WelingtonFranzoso/franzoso-agregador-de-investimentos/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/WelingtonFranzoso/tdd/blob/main/LICENSE) 
 
 
 # Sobre o projeto
 
-Este é um projeto Java Spring Boot que segue princípios de Desenvolvimento Orientado a Testes (TDD). O sistema é focado no gerenciamento de cursos.
-
+Este é um projeto simples Java Spring Boot que faz cadastro de cursos segue princípios de Desenvolvimento Orientado a Testes (TDD). O objetivo principal é demonstrar boas práticas no desenvolvimento de um projeto começando com os testes unitários
 # Funcionalidades
 
 - Cadastro de cursos com nome, descrição e carga horária.
-
-- Listagem de todos os cursos cadastrados.
-
-- Busca de curso por ID.
-
-- Atualização de informações de um curso.
-
-- Remoção de cursos.
 
 - Testes automatizados para garantir qualidade do código.
 
@@ -83,11 +74,7 @@ mvn test
 
 | Método | Endpoint      | Descrição              |
 |:------:|:-------------:|:----------------------:|
-| GET    | /courses      | Lista todos os cursos  |
 | POST   | /courses      | Cria um novo curso     |
-| GET    | /courses/{id} | Busca um curso pelo ID |
-| PUT    | /courses/{id} | Atualiza um curso      |
-| DELETE | /courses/{id} | Remove um curso        |
 
 
 # Contribuição
