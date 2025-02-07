@@ -58,7 +58,6 @@ TDD Application
 ### Pré-requisitos: 
 - Java 17 ou superior
 - Maven (para construção do projeto)
-- Docker
 
 ```bash
 # clonar repositório
